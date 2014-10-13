@@ -1,0 +1,10 @@
+diff -u oldfile.html newfile.html
+
+The above command prints out the difference between the two files. The -u is an attribute of the command that tells us we want a unified version. I'm not entirely clear on what that means but I imagine that it will become more clear soon. 
+
+Having access to different versions of a file could make me a better programmer because I can see the progression of a wrong path, or the right path. This is useful!
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+Well, according to the rules, it's important to commit when you've made logical discrete changes. 
+
+I think Git allows saving multiple files in one commit because in code, often times many files are dependent on each other, so changing one requires changing another even though only one logical change is being made. 
